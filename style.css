@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+p{
+    text-align: justify;
+}
+
+.navbar {
+    background-color: #ffffff00; 
+    opacity: 1; 
+    transition: background-color 1s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-scrolled {
+    background-color: rgb(240, 252, 255); 
+    color: rgb(204, 233, 239); 
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar.scrolled-hidden {
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+  
+  body {
+    background-color: rgb(220, 235, 239);
+  }  
+  
+
+.btn-primary {
+    background-color: rgb(42, 71, 117);
+    border-color: rgb(42, 71, 117);
+}
+
+.btn-primary:hover {
+    background-color: rgb(35, 60, 100); 
+    border-color: rgb(35, 60, 100);
+}
+
+
+.bs5-lightbox {
+    z-index: 2000 !important; 
+}
+
+.bs5-lightbox .modal-content {
+    border-radius: 8px; 
+}
+
+.bs5-lightbox .modal-header, 
+.bs5-lightbox .modal-footer {
+    border: none; 
+}
+
+.bs5-lightbox .modal-body {
+    padding: 0; 
+}
+
+.bs5-lightbox img {
+    width: 100%;
+    border-radius: 8px; 
+    object-fit: cover; 
+}
+
+
+@media (max-width: 768px) {
+    .bs5-lightbox img {
+        height: auto;
+        max-height: 80vh; 
+    }
+}
+

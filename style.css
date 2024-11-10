@@ -74,3 +74,13 @@ p{
     }
 }
 
+#scrollToTopBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #scrollToTopBtn span {
+    margin-left: 0;
+    text-align: center;
+  }
